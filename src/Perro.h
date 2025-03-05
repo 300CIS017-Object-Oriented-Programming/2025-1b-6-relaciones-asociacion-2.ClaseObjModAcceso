@@ -9,14 +9,18 @@
 #include <iostream>
 
 class Perro {
+private:
+    std::string tamanio;
+    std::string raza;
 
 public:
     std::string nombre;
     std::string color;
     int edad;
-    void ladrar();
-    void saludar();
 
+    void ladrar();
+
+    void saludar(std::string mensaje);
 };
 
 #endif //INC_1_CLASEOBJETO_PERRO_H
