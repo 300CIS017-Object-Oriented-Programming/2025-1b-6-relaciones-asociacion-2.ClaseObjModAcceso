@@ -15,12 +15,14 @@
 
 **Ejercicios**
 
-1. **[Acceso a variables de instancia privadas]** Intente establecer (set) valores directamente para los atributos "
+1. Revise el diagrama de clases y revise la implementación de las clases para que tenga un contexto del alcance del problema. 
+
+2. **[Acceso a variables de instancia privadas]** Intente establecer (set) valores directamente para los atributos "
    tamanio", "color" y "edad" desde fuera de la clase, y
    verifique que ocurra un error o advertencia debido a que estos atributos son privados y no se pueden acceder desde
    fuera de la clase.
 
-2. **[Crear nuevas clases]**
+3. **[Crear nuevas clases]**
 
    **Raza**
     1. Cree una nueva clase llamada `Raza` que tenga los atributos "nombre", "paisOrigen"
@@ -39,7 +41,7 @@
         4. Intente asociar algún objeto `Perro` que tenga creado, con un objeto de la clase `Veterinaria`
         5. Pruebe la relación mostrando desde algún objeto `Perro` la información de su veterinario.
 
-3 **[Uso de variables locales y de instancia]** Cree un método "alimentar" en la clase Perro que tenga una variable
+4 **[Uso de variables locales y de instancia]** Cree un método "alimentar" en la clase Perro que tenga una variable
 local de tipo float que represente la cantidad de
 alimento en kilogramos que se le está dando al perro. Al llamar el método "alimentar", este método debe calcular la
 cantidad de alimento necesaria para alimentar al perro en función de su tamaño y edad (un perro grande se alimenta con 1
@@ -47,7 +49,7 @@ kilogramo por cada año de vida, un perro mediano con 0.5 kilos por cada año de
 por cada año de vida). El método debe luego mostrar en pantalla cuánto alimento se le está dando al perro. Pruebe el
 método llamándolo con el objeto "Firulais"
 
-4 **Clase libre**
+5 **Clase libre**
 Defina una nueva clase que tenga al menos dos atributos y dos métodos relaciónela con algunas de las clases ya
 existentes, pruebe que su relación funciona. Ajuste el UML para que incorpore la nueva clase creada.
 
